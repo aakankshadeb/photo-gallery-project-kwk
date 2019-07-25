@@ -1,0 +1,28 @@
+body {
+  /*background-color: #320b6e;*/
+  background-color: black;
+  }
+h1{
+  color: #d119d4;
+  justify-content: center;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+.header{
+  justify-content: center;
+}
+div{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+@media screen and (max-width: 900px){
+  body {
+    background-color: #4c026e;
+  }
+  h1{
+    color: #112eed;
+  }
+}
